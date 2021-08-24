@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Configurações <header> */
+.header {
+    background-color: rgba(255,145,77,255);
+}
+
+/* Esta é a estilização do menu da Home*/
+
+.menu-header {
+    list-style-type: none;
+    display: flex;
+    padding-left: 20px;
+    padding: 25px;
+    font-size: 20px;
+    margin-left: 4vw;
+}
+
+.menu-header li {
+    margin-right: 2vw;
+    padding: 5px;
+    color: white;
+}
+
+.menu-header li:hover {
+    color: black;   
+}
+
+
+
+/* Esta é a estilização da <div> onde está ao logo da empresa*/
+
+.home-background {
+    width: 100vw;
+    height: 88vh;
+    text-align: center;
+}
+
+
