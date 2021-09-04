@@ -119,10 +119,10 @@
 
  .container3NossosServiços>h1 {
      color: rgba(255,145,77,255);
-     font-size: 50px; 
+     font-size: 40px; 
      padding-top: 2%;
      text-align: center;
-     padding-bottom: 4%;
+     padding-bottom: 1%;
  }
 
  .nossos-serviços {
@@ -138,7 +138,7 @@
 
 
  .card-serviço {
-     height: 80vh;
+     height: 82vh;
      width: 40vw;
      text-align: center;
      display: flex;
@@ -157,5 +157,156 @@
  .card-serviço> p {
     color: rgb(107, 44, 4);
     font-size: 15px;
-    padding: 10px 10px 10px 20px;
+    /* padding: 5px 5px 5px 5px; */
+ } 
+
+ /* Esta é a estilização do menu dos contatos */
+
+
+ .div-cards{
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     background-color: rgb(250, 245, 242); ;
+     /* margin:50px; */
+   
+
+   
  }
+ .header-contatos{
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     font-size:40px;
+     height:50vh;
+     background-color: rgba(255,145,77,255);
+     color:white;
+
+ }
+ 
+    .card-contatos{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:20px;
+        color: rgb(107, 44, 4);
+        height:40vh;
+        width:20vw;
+        margin-right:2%;
+    }
+  
+    .img-contatos{
+        margin-right:2%;
+        width:30%;
+        height:30%;
+    }
+
+    footer{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        background-color:rgb(41, 40, 40);
+        color:white;
+    
+    }
+    .Transparência{
+        display:flex;
+        justify-content:space-evenly;
+        
+
+    }
+  .Transparência>p{
+    padding:10px 10px 10px 10px;
+    margin-right:10px;
+  }
+  
+    .Ouvidoria{
+        display:flex;
+        justify-content:space-evenly;
+    }
+
+    .Ouvidoria>p{
+        padding:10px 10px 10px 10px;
+        margin-right:10px;
+      }
+
+
+       /* Esta é a estilização da minha página de login */
+
+       .header-login{
+           height:20vh;
+           background-color:rgba(255,145,77,255);
+        
+       }
+
+
+         #icone-header{
+             height:20vh;
+         }
+
+         .caixa-cpf{
+             display:flex;
+             align-items:center;
+              flex-direction:column;
+              margin-top:40px;
+              height:40vh;
+              border:30%;
+             
+         }
+          .main-login{
+              background-color: rgb(250, 245, 242);
+              height:80vh;
+              display:flex;
+              align-items:center;
+              justify-content:center;
+
+          }
+         .login{
+             display:flex;
+             align-items:center;
+             justify-content:center;
+             flex-direction:column;
+             height:80%;
+             width:30%;
+             background-color:rgba(255,145,77,0.9);
+             border-radius:20%;
+             text-align:center;
+             color:white;
+            box-shadow:2px 2px 5px rgb(189, 113, 0); 
+           
+         }
+
+        .caixa{
+            
+            border:2px solid white; 
+            /* border-color:rgb(189, 113, 0); */
+            border-radius:10%;
+            height:10%;
+            width:60%;
+            background-color:rgba(255,145,77,0);
+            /* margin:10px 10px 10px; */
+            padding:10px 10px 10px 10px;
+        }
+
+        #botao-entrar{
+            
+            padding: 8px 8px 8px 8px;
+            background-color:rgba(255,145,77,0);
+            border-radius: 20px;
+            border: 1px solid white;
+            color:white;
+            height:10%;
+            width:20%;
+
+        }
+
+       #botao-entrar:hover{
+           color:black;
+           border:1px solid black;
+       }
+
+        input::placeholder{
+            color:white;
+            margin-right:5%;
+            padding:10px 10px 10px 10px;
+        }
